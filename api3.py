@@ -9,7 +9,7 @@ def ana_səhifə():
     <body style="background-color:#f5f7fa; font-family: 'Poppins', sans-serif; margin: 40px;">
       <h1 style="color:#2c3e50; font-weight: 700;">Salam! Xoş gəldiniz!</h1>
       <p style="color:#34495e; font-size: 18px;">
-        Bu Aysun Teymurzadənin şəxsi veb saytıdır.
+        Bu Sevinc Hasimova şəxsi veb saytıdır.
       </p>
       <p>
         <a href="/xidmetler" style="color:#2980b9; text-decoration:none; font-weight:600; font-size: 20px;"
