@@ -34,12 +34,12 @@ def xidmetler_sehifesi():
                 <h2>Xidmetlerimiz</h2>
             <p>Mekteb cantalari</p>
         <p>Gundelik cantalar</p>
-    <p>Qadin canalari</p>
-<p>Ve daha coxu...</p>
-    <p>Daha etrafli melumat ucun: +994 55 237 95 43</p>
+        <p>Qadin canalari</p>
+        <p>Ve daha coxu...</p>
+            <p>Daha etrafli melumat ucun: +994 55 237 95 43</p>
         <p><a href="/">Ana sehifeye qayit</a></p>
     </body>
-</html>
+    </html>
     """
 if __name__ == "__main__":
     app.run(debug=True, host="127.0.0.1", port=5000)
