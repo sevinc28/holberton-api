@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffdee9, #b5fffc);
+    font-family: 'Segoe UI', sans-serif;
+    overflow: hidden;
+    }
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 5vh;
+    }
+
+.love-letter {
+    font-size: 4rem;
+    color: #e60073;
+    margin: 0;
+    animation: pop 1s ease-in-out infinite alternate;
+    }
+
+.heart-container {
+    position: relative;
+    margin: 20px auto;
+    }
+
+.main-heart {
+    font-size: 3rem;
+    color: red;
+    }
+
+.heart-pulse {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: pulse 1s infinite;
+    opacity: 0.5;
+    }
+
+@keyframes pulse {
+    0% { transform: translateX(-50%) scale(1); opacity: 0.5; }
+    50% { transform: translateX(-50%) scale(1.5); opacity: 0.8; }
+    100% { transform: translateX(-50%) scale(1); opacity: 0.5; }
+    }
+
+.subtitle {
+    font-style: italic;
+    color: #555;
+    font-size: 1.5rem;
+    }
+
+.decorative-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    }
+
+.line {
+    height: 1px;
+    width: 50px;
+    background-color: #ccc;
+    }
+
+.heart-small {
+    font-size: 1.2rem;
+    }
+
+.love-button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.message-display {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 2px solid #ff69b4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff69b4;
+    max-width: 300px;
+}
+
+.message-content {
+    position: relative;
+}
+
+.close-message {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.floating-quotes p {
+    color: #800080;
+    font-weight: bold;
+    animation: floatText 4s infinite alternate;
+}
+
+@keyframes floatText {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
