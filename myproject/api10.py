@@ -14,6 +14,7 @@ def sehife():
                 <li>Balinalar insanlarla cox mehribandir</li>
                 <li>Balinalar okeanlarda yasayir</li>
             </ul>
+        <img src="
         </head>
     </html>
     """

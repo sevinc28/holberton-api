@@ -36,6 +36,6 @@ def elaqe_sehifesi():
     return """
     <h2>Etrafli melumat almaq ucun: +994 237 95 43</h2>
     """
-    s
+    
 if __name__ == '__main__':
     app.run(debug=True, host="")

@@ -18,7 +18,7 @@ def ana_sehife():
             <li>Gerqli zovqunuze uygun cantalar movcuddur</li>
             <li>Ziyafet ve gundelik geyimleri tamamlayir</li>
         </ul>
-        <p>Bizim xidmetlerimiz:</p>
+        <h3>Bizim xidmetlerimiz</h3>
             <p><a href="/xidmetler">Xidmetlerimiz</p>
         </body>
     </html>
